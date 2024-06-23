@@ -15,7 +15,7 @@ class Controls{
                     this.left=true
                     break
                 case "ArrowRight":
-                    this.right=true
+                    this.right= true
                     break
             }
         }
