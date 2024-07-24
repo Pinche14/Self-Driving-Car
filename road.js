@@ -32,7 +32,7 @@ class Road{
         ctx.lineWidth=5;
         ctx.strokeStyle="white";
 
-        for(let i=0;i<=this.laneCount;i++){
+        for(let i=0;i<=this.laneCount-1;i++){
             const x=lerp(
                 this.left,
                 this.right,
